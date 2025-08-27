@@ -379,7 +379,7 @@ body {
 }
 
 .outcome-card {
-    background: #fff;
+    background: linear-gradient(150deg, white 75%, rgb(255, 181, 207));
     color: var(--color-background-start);
     padding: var(--spacing-md);
     border-radius: var(--border-radius-sharp);
@@ -435,7 +435,7 @@ body {
 }
 
 .outcome-card-text {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
     font-weight: 500;
     line-height: 1.4;
     max-width: 250px;
@@ -443,6 +443,7 @@ body {
 }
 
 .outcome-role {
+    font-size: clamp(1.5rem, 2.5vw, 1.75rem);
     font-weight: 700;
     color: var(--color-primary);
     display: block;
@@ -681,7 +682,7 @@ body {
 .fomo-section {
     position: relative;
     padding: calc(var(--spacing-xl) * 1.5) var(--spacing-md);
-    background-color: var(--color-white);
+    background: linear-gradient(150deg, white 75%, rgb(255, 181, 207));
     text-align: center;
     color: var(--color-background-start);
     overflow: hidden;
