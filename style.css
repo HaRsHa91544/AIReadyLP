@@ -1080,7 +1080,8 @@ body {
         gap: var(--spacing-xs);
         padding: var(--spacing-sm);
     }
+
     .faqs-section {
-        padding-bottom:150px;
+        padding-bottom: 150px;
     }
 }
