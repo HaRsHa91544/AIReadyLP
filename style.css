@@ -1076,7 +1076,15 @@ body {
 
 .footer-logo {
     height: 50px;
-    filter:brightness(30);
+    filter: brightness(30);
+}
+
+@media (max-width:1024px) {
+
+    .after-card li::before,
+    .before-card li::before {
+        display: none;
+    }
 }
 
 /* Tablet & Mobile Responsiveness */
@@ -1100,6 +1108,10 @@ body {
 }
 
 @media (max-width: 600px) {
+    .process-curve-top {
+        display: none;
+    }
+
     .sticky-cta-content {
         flex-direction: column;
         gap: var(--spacing-xs);
