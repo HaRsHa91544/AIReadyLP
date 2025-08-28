@@ -952,7 +952,6 @@ body {
     background-color: var(--color-background-end);
     text-align: center;
     color: var(--color-white);
-    padding-bottom: 100px;
 }
 
 .faqs-headline {
@@ -1054,6 +1053,31 @@ body {
     opacity: 0.8;
 }
 
+/* Footer Section */
+.footer-section {
+    padding: var(--spacing-xl) var(--spacing-sm);
+    background-color: var(--color-background-end);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.footer-logo {
+    height: 50px;
+    filter:brightness(30);
+}
 
 /* Tablet & Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -1082,7 +1106,7 @@ body {
         padding: var(--spacing-sm);
     }
 
-    .faqs-section {
+    .footer-section {
         padding-bottom: 150px;
     }
 }
